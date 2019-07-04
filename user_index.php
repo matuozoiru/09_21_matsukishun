@@ -1,14 +1,14 @@
 <?php
 // セッションのスタート
-// session_start();
+session_start();
 
 //0.外部ファイル読み込み
 include('functions.php');
 
-// ログイン状態のチェック
-chk_ssid();
+// 管理者かどうかのチェック
+chk_kanri();
 
-// $menu = menu();
+// $amenu = amenu();
 ?>
 
 <!DOCTYPE html>

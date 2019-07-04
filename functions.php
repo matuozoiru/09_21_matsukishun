@@ -36,6 +36,15 @@ function chk_ssid()
     }
 }
 
+//管理者ログイン
+function chk_kanri()
+{
+    if ($_SESSION['kanri_flg'] == 0){
+        header('Location: select.php');
+    }
+
+}
+
 // menuを決める
 function menu()
 {
@@ -44,3 +53,17 @@ function menu()
     
     return $menu;
 }
+
+// function amenu()
+// {
+//     $amenu = '<li class="nav-item">
+//                         <a class="nav-link" href="user_index.php">ユーザー登録</a>
+//                     </li>
+//                     <li class="nav-item">
+//                         <a class="nav-link" href="user_select.php">ユーザー一覧</a>
+//                     </li>
+//                     <li class="nav-item">
+//                         <a class="nav-link" href="select.php">todo一覧</a>
+//                     </li>'
+//     return $menu;
+// }

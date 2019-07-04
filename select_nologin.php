@@ -62,7 +62,7 @@ if ($status == false) {
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">todo一覧</a>
-            <a class="nav-link" href="login.php">ログインページ</a>
+                <a class="nav-link" href="login.php">ログインページ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
